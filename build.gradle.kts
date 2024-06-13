@@ -32,8 +32,12 @@ dependencies {
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	implementation("com.baomidou:mybatis-plus-spring-boot3-starter:3.5.6")
 	implementation("com.mysql:mysql-connector-j:8.4.0")
-	implementation("org.springdoc:springdoc-openapi-ui:1.8.0")
 	implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.0")
+	implementation("org.apache.shiro:shiro-spring-boot-starter:2.0.1")
+	implementation("org.apache.shiro:shiro-spring:2.0.1")
+	implementation("javax.servlet:javax.servlet-api:3.1.0")
+	//compileOnly("jakarta.servlet:jakarta.servlet-api:6.0.0")
+
 }
 
 kotlin {
